@@ -5,22 +5,37 @@
   <head>
 
     <meta charset="UTF-8">
-    <title>Saw Game</title>
+    <title>Crystal Game</title>
 
     <!-- Reset CSS file -->
-    <link rel="stylesheet" src = "css/reset.css">
+    <link rel="stylesheet" href = "assets/css/reset.css">
     <!-- Bootstrap File -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- CSS Bootstrap Override   -->
-    <link rel="stylesheet" src = "css/style.css">
+    <!-- CSS Override   -->
+    <link rel="stylesheet" href = "assets/css/style.css">
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery.js"></script>
 
   </head>
 
   <body>
+      
+    <div>
 
-
+    </div>
+    
+    <div>
+        <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+        <h1>Number Total: <span id="number-total-count"></span></h1>
+        <h1>Guesses Left: <span id="number-guesses-left"></span></h1>
+      
+        <!-- Note that this div is now empty. We will fill it dynamically -->
+        <div id="crystals"></div>
+    
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </div>
 
 
   </body>
+
+  </html>
