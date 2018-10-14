@@ -20,20 +20,22 @@
 
   <body>
       
-    <div>
+    <div class="row">
+        <div class="col-md-8">
+            <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+            <h1>Number Total: <span id="number-total-count"></span></h1>
+            <h1>Guesses Left: <span id="number-guesses-left"></span></h1>
+        </div>
+        <div class="col-md-4">
+            <p>Wins: <span id="win-count"></span></p>
+            <p>Losses: <span id="losses-count"></span></p>
+        </div>
 
     </div>
+
+    <div id="crystals"></div>
     
-    <div>
-        <h1>Number to Guess: <span id="number-to-guess"></span></h1>
-        <h1>Number Total: <span id="number-total-count"></span></h1>
-        <h1>Guesses Left: <span id="number-guesses-left"></span></h1>
-      
-        <!-- Note that this div is now empty. We will fill it dynamically -->
-        <div id="crystals"></div>
-    
-        <script type="text/javascript" src="assets/javascript/game.js"></script>
-    </div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 
   </body>
